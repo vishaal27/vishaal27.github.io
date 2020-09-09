@@ -47,71 +47,26 @@
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-          <tr onmouseout="nlt_stop()" onmouseover="nlt_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='nlt_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/nlt_after.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/nlt_before.jpg' width="160">
-              </div>
-              <script type="text/javascript">
-                function nlt_start() {
-                  document.getElementById('nlt_image').style.opacity = "1";
-                }
-
-                function nlt_stop() {
-                  document.getElementById('nlt_image').style.opacity = "0";
-                }
-                nlt_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="http://nlt.csail.mit.edu/">
-                <papertitle>Neural Light Transport for Relighting and View Synthesis</papertitle>
-              </a>
-              <br>
-              <a href="http://people.csail.mit.edu/xiuming/">Xiuming Zhang</a>,
-              <a href="http://www.seanfanello.it/">Sean Fanello</a>,
-              <a href="https://research.google/people/105312/">Yun-Ta Tsai</a>,
-              <a href="http://kevinkingo.com/">Tiancheng Sun</a>,
-              <a href="https://people.csail.mit.edu/tfxue/">Tianfan Xue</a>,
-              <a href="https://research.google/people/106687/">Rohit Pandey</a>,
-              <a href="https://www.dtic.ua.es/~sorts/">Sergio Orts-Escolano</a>,
-              <a href="https://dl.acm.org/profile/99659224296">Philip Davidson</a>,
-              <a href="https://scholar.google.com/citations?user=5D0_pjcAAAAJ&hl=en">Christoph Rhemann</a>,
-              <a href="http://www.pauldebevec.com/">Paul Debevec</a>,
-              <strong>Jonathan T. Barron</strong>,
-              <a href="http://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
-              <a href="http://billf.mit.edu/">William T. Freeman</a>
-              <br>
-              <em>arXiv</em>, 2020  
-              <br>
-              <a href="http://nlt.csail.mit.edu/">project page</a> /
-              <a href="https://arxiv.org/abs/2008.03806">arXiv</a> /
-              <a href="https://www.youtube.com/watch?v=OGEnCWZihHE">video</a>
-              <p></p>
-              <p>Embedding a convnet within a predefined texture atlas enables simultaneous view synthesis and relighting.</p>
-            </td>
-          </tr> 
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> 
           
            <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/clean_promo.jpg" alt="clean-usnob" width="160" height="160">
+              <img src="images/discont.png" alt="discont" width="160" height="160">
             </td>
             <td width="75%" valign="middle">
-              <a href="https://drive.google.com/file/d/1YvRx-4hrZoCk-nl6OgVJZlHAqOiN5hWq/view?usp=sharing">
-                <papertitle>Cleaning the USNO-B Catalog Through Automatic Detection of Optical Artifacts</papertitle>
+              <a href="https://arxiv.org/abs/2006.05895">
+                <papertitle>DisCont: Self-Supervised Visual Attribute Disentanglement using Context Vectors</papertitle>
               </a>
               <br>
-              <strong>Jonathan T. Barron</strong>, <a href="http://stumm.ca/">Christopher Stumm</a>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
+              <strong>Vishaal Udandarao*</strong>, <a href="https://sarthak268.github.io/">Sarthak Bhagat</a>, <a href="https://shagunuppal.github.io/">Shagun Uppal</a>, <a href="https://faculty.iiitd.ac.in/~anands/">Saket Anand</a>
               <br>
-              <em>The Astronomical Journal</em>, 135, 2008
-              <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
-              <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
+              <em>PTSGM Workshop, ECCV</em>, 2020, <em>MLI4SD Workshop, ICML</em>, 2020
+              <br>
+              <a href="https://sarthak268.github.io/discont/">project page</a> /
+              <a href="https://docs.google.com/presentation/d/1Qa3DiLQiJ_JpPk2Nx1v4QmcjIx5AsESNbZLUJ8rmD8A/edit">slides</a> /
+              <a href="https://www.youtube.com/watch?v=lIYCMHesVBw&feature=youtu.be">video</a> /
+              <a href="https://github.com/sarthak268/DisCont">code</a>
+              <p>A self-supervised framework to disentangle multiple attributes by exploiting structural inductive biases within images and leveraging contrastive learning paradigms.</p>
             </td>
           </tr>
 
